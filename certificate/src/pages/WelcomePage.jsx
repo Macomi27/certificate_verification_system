@@ -2,6 +2,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './WelcomePage.css';
+import image1 from '../assets/image1.png';
+import image2 from '../assets/image2.png';
+import image3 from '../assets/image3.png';
 
 const WelcomePage = () => {
   return (
@@ -12,9 +15,9 @@ const WelcomePage = () => {
       </header>
 
       <div className="certificate-images">
-        <img src="../assets/image1.png" alt="Certificate 1" className="certificate" />
-        <img src="../assets/image2.png" alt="Certificate 2" className="certificate" />
-        <img src="../assets/image3.png" alt="Certificate 3" className="certificate" />
+        <img src={image1} alt="Certificate 1" className="certificate" />
+        <img src={image2} alt="Certificate 2" className="certificate" />
+        <img src={image3} alt="Certificate 3" className="certificate" />
       </div>
 
       <div className="login-section">
